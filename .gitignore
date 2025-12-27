@@ -1,0 +1,91 @@
+# Ignore common compiled object files and binaries
+*.o
+*.obj
+*.ko
+
+# Common binary and image outputs
+*.elf
+*.img
+*.bin
+*.out
+*.iso
+*.run
+
+# Static and shared libraries
+*.a
+*.so
+
+# Kernel and boot images
+vmlinux
+vmlinuz
+zImage
+Image
+uImage
+
+# Linker and map outputs
+*.map
+
+# Core dumps
+core
+core.*
+
+# Build directories and common output folders
+/build/
+/bin/
+/obj/
+/out/
+
+# Editor/temp files
+*~
+*.swp
+*.swo
+
+# Dependency files
+*.d
+
+# Allow local explicit overrides by negating patterns below if needed
+
+# IDE / Editor folders and files
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (IntelliJ, CLion, PyCharm, etc.)
+.idea/
+*.iml
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# macOS Finder
+.DS_Store
+
+# Emacs
+.#*
+
+# Vim swap/undo/backup (some already covered)
+*.swp
+*.swo
+*.swn
+
+# History / tool caches
+.history/
+.cache/
+
+# Python virtualenvs and env folders (optional common names)
+venv/
+.venv/
+env/
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Other common editor artifacts
+*.kate-swp
+*.idea_modules

@@ -1,0 +1,8 @@
+# Enable UART (optional, useful for serial debug)
+enable_uart=1
+
+# Specify device tree blob
+device_tree=bcm2712-rpi-500.dtb
+
+# Optional: safe mode settings
+arm_64bit=1         # Ensure 64-bit kernel mode
